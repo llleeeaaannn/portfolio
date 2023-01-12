@@ -1,0 +1,27 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--navy);
+}
+
+.introContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 7.5rem;
+}
+
+.introContent h1 {
+  color: var(--white);
+  font-size: var(--fs-xxxl);
+}
+
+.introContent > span {
+  color: var(--white);
+  font-size: var(--fs-md);
+  width: 30rem;
+}

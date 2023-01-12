@@ -1,11 +1,13 @@
 .navbar {
+  position: absolute;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 2rem;
-  background-color: var(--navy);
+  padding: 2rem 2.5rem;
+  background-color: var(--clear);
 }
 
 .navbar span {
