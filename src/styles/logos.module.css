@@ -1,0 +1,16 @@
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo svg {
+  height: 3rem;
+  width: 3rem;
+  filter: grayscale(1);
+}
