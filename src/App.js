@@ -1,20 +1,21 @@
-import './styles/App.css';
+import './styles/styles.css';
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './views/home';
-import Projects from './views/projects';
 import NotFound from './views/notfound';
+import Stockle from './views/projects/stockle';
 
 export const AppContext = React.createContext();
 
 function App() {
 
+  const [random, setRandom] = useState();
 
   return (
-    <AppContext.Provider>
+    <AppContext.Provider value={random}>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/stockle' element={<Stockle />} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
     </AppContext.Provider>

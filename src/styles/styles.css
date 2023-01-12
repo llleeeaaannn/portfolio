@@ -1,0 +1,111 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  box-sizing: border-box;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Properties */
+:root {
+	/* Colors */
+	--navy: rgba(20, 30, 40, 1);
+	--orange: rgba(256, 110, 60, 1);
+	/* Fonts */
+	--fs-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+	--fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+	--fs-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+	--fs-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+	--fs-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+	--fs-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+	--fs-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+/* Menu Icon Styling */
+.navbarBurger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.9rem;
+  width: 1.9rem;
+	cursor: pointer;
+	z-index: 200;
+}
+
+.navbarBurger span {
+  height: 0.2rem;
+  width: 100%;
+  background-color: var(--orange);
+  transition: all 800ms ease-in-out;
+}
+
+.navbarBurger .menuSelected {
+  transition: all 200ms ease-in-out;
+  background-color: black;
+  transform-origin: top left;
+}
+
+.navbarBurger .menuSelected:nth-of-type(1) {
+  transition: all 500ms ease-in-out;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  width: 2.45rem;
+}
+
+.navbarBurger .menuSelected:nth-of-type(2) {
+  transition: all 100ms ease-in-out;
+  transform-origin: center;
+  width: 0;
+}
+
+.navbarBurger .menuSelected:nth-of-type(3) {
+  transition: all 500ms ease-in-out;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  width: 2.45rem;
+}
