@@ -68,6 +68,7 @@ table {
 }
 
 html {
+	background-color: var(--navy);
 }
 
 /* Menu Icon Styling */
