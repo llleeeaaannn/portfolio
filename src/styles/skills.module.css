@@ -6,4 +6,5 @@
 .skills h2 {
   color: var(--navy);
   font-size: var(--fs-lg);
+  margin-bottom: 1rem;
 }

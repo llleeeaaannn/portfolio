@@ -16,5 +16,9 @@
 .logo svg {
   height: 3rem;
   width: 3rem;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
+}
+
+.logo svg:hover {
+  filter: grayscale(0);
 }
