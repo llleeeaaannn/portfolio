@@ -1,4 +1,3 @@
-/* eslint-disable */
 import styles from '../styles/projectlist.module.css';
 import ProjectOverview from './projectoverview';
 import { stockleData, spotlistData, optioncentData } from '../data/projectData';
