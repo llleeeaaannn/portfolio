@@ -11,15 +11,15 @@ const ProjectOverview = ({ data }) => {
           <h4>{ data.type }</h4>
         }
         { data.name &&
-          <h3>{ data.name }</h3>
+          <Link className={styles.name} to={data.link}>{ data.name }</Link>
         }
         { data.technologies.length &&
           <Technologies data={data.technologies}/>
         }
-        <Link to={data.link}>View Project</Link>
         { data.shortDescription &&
           <p>{ data.shortDescription }</p>
         }
+        <Link className={styles.button} to={data.link}>View Project</Link>
       </div>
       <div className={styles.image}>
         { data.image &&

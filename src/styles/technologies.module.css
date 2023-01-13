@@ -3,9 +3,13 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .technologies span {
-  padding: 0.5rem;
+  color: var(--ivory);
   background-color: var(--navy);
+  padding: 0.5rem 0.75rem;
 }

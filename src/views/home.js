@@ -9,9 +9,11 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Intro />
-      <About />
-      <Skills />
-      <ProjectList />
+      <div className={styles.content}>
+        <About />
+        <Skills />
+        <ProjectList />
+      </div>
     </div>
   )
 }
