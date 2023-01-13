@@ -1,7 +1,7 @@
 /* eslint-disable */
 import styles from '../styles/projectlist.module.css';
 import ProjectOverview from './projectoverview';
-import { stockleData, spotlistData } from '../data/projectData';
+import { stockleData, spotlistData, optioncentData } from '../data/projectData';
 
 const ProjectList = () => {
 
@@ -10,6 +10,7 @@ const ProjectList = () => {
       <h2>Projects</h2>
       <ProjectOverview data={spotlistData}/>
       <ProjectOverview data={stockleData}/>
+      <ProjectOverview data={optioncentData}/>
     </div>
   )
 }
