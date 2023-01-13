@@ -1,0 +1,10 @@
+.projectList {
+  width: 100%;
+  padding: 5rem 7.5rem;
+  background-color: var(--ivory);
+}
+
+.projectList h2 {
+  font-size: var(--fs-lg);
+  margin-bottom: 2rem;
+}

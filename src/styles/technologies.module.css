@@ -1,0 +1,11 @@
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.technologies span {
+  padding: 0.5rem;
+  background-color: var(--navy);
+}

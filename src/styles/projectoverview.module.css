@@ -1,0 +1,52 @@
+.projectTab {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 5rem;
+  border: 1px solid green;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.overview h4 {
+  font-size: var(--fs-base);
+  margin-bottom: 0.5rem;
+}
+
+.overview h3 {
+  font-size: var(--fs-xl);
+  margin-bottom: 1.5rem;
+}
+
+.overview a {
+  color: var(--orange);
+  text-decoration: none;
+  font-size: var(--fs-base);
+  font-weight: 900;
+  background-color: var(--ivory);
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border: 3px solid var(--orange);
+  transition: all 300ms ease-in-out;
+}
+
+.overview a:hover {
+  color: var(--ivory);
+  background-color: var(--orange);
+  border: 3px solid var(--orange);
+  transition: all 300ms ease-in-out;
+}
+
+
+.overview p {
+  font-size: var(--fs-base);
+  border: 1px solid yellow;
+}
+
+.image {
+}

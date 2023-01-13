@@ -1,7 +1,9 @@
 .skills {
   background-color: var(--ivory);
+  padding: 5rem 7.5rem;
 }
 
-.logo {
-  
+.skills h2 {
+  color: var(--navy);
+  font-size: var(--fs-lg);
 }
