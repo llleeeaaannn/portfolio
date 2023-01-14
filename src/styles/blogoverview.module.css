@@ -1,0 +1,38 @@
+.blogOverview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid red;
+}
+
+.blogOverview h4 {
+  color: var(--navy);
+  font-size: var(--fs-md);
+  margin-bottom: 0.25rem;
+}
+
+.blogOverview span {
+  color: var(--navy);
+  font-size: var(--fs-sm);
+  margin-bottom: 1rem;
+}
+
+.blogOverview p {
+  color: var(--navy);
+  font-size: var(--fs-base);
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.button {
+  display: flex;
+}
+
+.blogOverview a {
+  color: var(--orange);
+  font-size: var(--fs-base);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}

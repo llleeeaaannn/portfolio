@@ -1,0 +1,20 @@
+.blogList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 5rem;
+  background-color: var(--ivory);
+}
+
+.blogList h2 {
+  color: var(--navy);
+  font-size: var(--fs-lg);
+  margin-bottom: 1rem;
+}
+
+.blogContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}

@@ -2,6 +2,7 @@ import styles from '../styles/home.module.css';
 import Intro from '../components/intro';
 import About from '../components/about';
 import Skills from '../components/skills';
+import BlogList from '../components/bloglist';
 import ProjectList from '../components/projectlist';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <About />
         <Skills />
         <ProjectList />
+        <BlogList />
       </div>
     </div>
   )
