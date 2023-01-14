@@ -12,6 +12,7 @@ const BlogList = () => {
         <BlogOverview data={screenBlogData}/>
         <BlogOverview data={screenBlogData}/>
       </div>
+      <span>See all blog posts</span>
     </div>
   )
 }

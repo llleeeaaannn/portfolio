@@ -27,12 +27,21 @@
 /* Button Styling */
 .button {
   display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  cursor: pointer;
 }
 
-.blogOverview a {
+.button a {
   color: var(--orange);
   font-size: var(--fs-base);
   font-weight: bold;
   text-decoration: none;
-  margin-bottom: 1rem;
+}
+
+.button svg {
+  fill: var(--orange);
+  color: var(--orange);
+  width: var(--fs-base);
+  height: var(--fs-base);
 }
