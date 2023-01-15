@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h2 {
+  color: var(--navy);
+  font-size: var(--fs-lg);
+}
+
+.email {
+  color: var(--orange);
+  font-size: var(--fs-base);
+  text-decoration: none;
+}

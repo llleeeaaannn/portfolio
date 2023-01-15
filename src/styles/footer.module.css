@@ -1,0 +1,22 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding: 5rem 7.5rem;
+}
+
+.footer > div {
+  border: 1px solid red;
+}
+
+.overview {
+
+}
+
+.links {
+
+}
+
+.social {
+
+}
