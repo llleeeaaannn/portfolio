@@ -5,8 +5,8 @@ const Technologies = ({ data }) => {
   return (
     <div className={styles.technologies}>
     {
-      data.map(item => (
-        <span>{ item }</span>
+      data.map((item, i) => (
+        <span key={i}>{ item }</span>
       ))
     }
     </div>

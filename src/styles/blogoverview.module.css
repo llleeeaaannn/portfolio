@@ -12,7 +12,7 @@
   margin-bottom: 0.25rem;
 }
 
-.blogOverview span {
+.blogOverview > span {
   color: var(--navy);
   font-size: var(--fs-sm);
   margin-bottom: 1rem;
@@ -26,22 +26,8 @@
 
 /* Button Styling */
 .button {
-  display: flex;
-  flex-direction: row;
-  gap: 0.25rem;
-  cursor: pointer;
-}
-
-.button a {
   color: var(--orange);
   font-size: var(--fs-base);
   font-weight: bold;
   text-decoration: none;
-}
-
-.button svg {
-  fill: var(--orange);
-  color: var(--orange);
-  width: var(--fs-base);
-  height: var(--fs-base);
 }

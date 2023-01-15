@@ -18,3 +18,31 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
+/* Button Styling */
+.allBlogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid blue;
+  align-self: flex-end;
+}
+
+.allBlogs span {
+  color: var(--orange);
+  font-size: var(--fs-md);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.allBlogs svg {
+  fill: var(--orange);
+  color: var(--orange);
+  width: var(--fs-md);
+  height: var(--fs-md);
+}
