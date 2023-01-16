@@ -9,10 +9,10 @@ export const AppContext = React.createContext();
 
 function App() {
 
-  const [random, setRandom] = useState();
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <AppContext.Provider value={random}>
+    <AppContext.Provider value={{ showMenu, setShowMenu }}>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/stockle' element={<Stockle />} />

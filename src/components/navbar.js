@@ -1,20 +1,23 @@
-import { useState } from 'react';
+import { AppContext } from '../App.js';
+import { useContext } from 'react';
 import styles from '../styles/navbar.module.css';
 
 const Navbar = () => {
 
-  const [menuToggle, setMenuToggle] = useState(false);
+  const { showMenu, setShowMenu } = useContext(AppContext);
 
   return (
     <div className={styles.navbar}>
-      <span className={styles.logo}>FP</span>
-      <div className='navbarBurger' onClick={() => setMenuToggle(!menuToggle)}>
-        <span className={ menuToggle ? 'menuSelected' : '' }></span>
-        <span className={ menuToggle ? 'menuSelected' : '' }></span>
-        <span className={ menuToggle ? 'menuSelected' : '' }></span>
+      <span className={showMenu ? 'logo on' : 'logo'}>FP</span>
+      <div className="navbarBurger" onClick={() => setShowMenu(!showMenu)}>
+        <span className={ showMenu ? 'menuSelected' : '' }></span>
+        <span className={ showMenu ? 'menuSelected' : '' }></span>
+        <span className={ showMenu ? 'menuSelected' : '' }></span>
       </div>
     </div>
   )
 }
 
 export default Navbar;
+
+// className={styles.navbarBurger}

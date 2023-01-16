@@ -76,6 +76,21 @@ html {
 	background-color: var(--navy);
 }
 
+/* Menu Logo Styling */
+.logo {
+  color: var(--orange);
+  font-size: var(--fs-xl);
+  font-family: 'Montserrat Black', sans-serif;
+  transition: all 600ms ease-in-out;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.logo.on {
+	color: var(--navy);
+  transition: all 600ms ease-in-out;
+}
+
 /* Menu Icon Styling */
 .navbarBurger {
   display: flex;

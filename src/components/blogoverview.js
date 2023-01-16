@@ -13,7 +13,9 @@ const BlogOverview = ({ data }) => {
       { data.description &&
         <p>{ data.description }</p>
       }
-      <a className={styles.button} href={data.link} rel="noopener noreferrer" target="_blank">Read the full post</a>
+      <a className={styles.button} href={data.link} rel="noopener noreferrer" target="_blank">
+        <span>Read the full post</span>
+      </a>
     </div>
   )
 }
