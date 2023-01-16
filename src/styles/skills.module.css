@@ -1,4 +1,8 @@
 .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 5rem;
   background-color: var(--ivory);
 }
@@ -8,4 +12,22 @@
   font-size: var(--fs-lg);
   margin-bottom: 1.5rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for marker underline */
+.skills h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.skills h2::before {
+  content: "";
+  position: absolute;
+  left: -0.2rem;
+  bottom: -0.2rem;
+  width: calc(100% + 0.4rem);
+  height: 1rem;
+  transform: skew(-12deg);
+  background: var(--orange);
+  z-index: -1;
 }

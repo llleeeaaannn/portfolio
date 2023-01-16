@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
   margin-bottom: 5rem;
   background-color: var(--ivory);
 }
@@ -15,12 +14,32 @@
 .about h2 {
   font-size: var(--fs-lg);
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+/* Styling for marker underline */
+.about h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.about h2::before {
+  content: "";
+  position: absolute;
+  left: -0.2rem;
+  bottom: -0.2rem;
+  width: calc(100% + 0.4rem);
+  height: 1rem;
+  transform: skew(-12deg);
+  background: var(--orange);
+  z-index: -1;
 }
 
 .about h3 {
   font-weight: bold;
   font-size: var(--fs-base);
   font-family: 'Montserrat Bold', sans-serif;
+  margin-bottom: 0.5rem;
 }
 
 .about p {

@@ -1,6 +1,8 @@
 .blogList {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   background-color: var(--ivory);
 }
@@ -11,6 +13,25 @@
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1.5rem;
 }
+
+/* Styling for marker underline */
+.blogList h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.blogList h2::before {
+  content: "";
+  position: absolute;
+  left: -0.2rem;
+  bottom: -0.2rem;
+  width: calc(100% + 0.4rem);
+  height: 1rem;
+  transform: skew(-12deg);
+  background: var(--orange);
+  z-index: -1;
+}
+
 
 .blogContainer {
   display: grid;
