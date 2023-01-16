@@ -26,3 +26,4 @@ export default Home;
 
 // Add appearing underline on some hover elements (blog buttons..)
 // Add appearing menu from hamburger menu
+// Remove unused fonts
