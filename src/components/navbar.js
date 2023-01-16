@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-      <span>FP</span>
+      <span className={styles.logo}>FP</span>
       <div className='navbarBurger' onClick={() => setMenuToggle(!menuToggle)}>
         <span className={ menuToggle ? 'menuSelected' : '' }></span>
         <span className={ menuToggle ? 'menuSelected' : '' }></span>

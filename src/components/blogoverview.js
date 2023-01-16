@@ -4,11 +4,11 @@ const BlogOverview = ({ data }) => {
 
   return (
     <div className={styles.blogOverview}>
-      { data.name &&
-        <h4>{ data.name }</h4>
-      }
       { data.type &&
         <span>{ data.type }</span>
+      }
+      { data.name &&
+        <h4>{ data.name }</h4>
       }
       { data.description &&
         <p>{ data.description }</p>

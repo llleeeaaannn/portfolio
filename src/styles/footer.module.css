@@ -18,18 +18,21 @@
 .overview h4 {
   color: var(--ivory);
   font-size: var(--fs-lg);
+  font-family: 'Montserrat Black', sans-serif;
   margin-bottom: 0.5rem;
 }
 
 .overview span {
-  color: var(--grey);
+  color: var(--ivory);
   font-size: var(--fs-sm);
+  font-family: 'Montserrat Light', sans-serif;
   margin-bottom: 0.5rem;
 }
 
 .overview a {
-  color: var(--grey);
+  color: var(--ivory);
   font-size: var(--fs-sm);
+  font-family: 'Montserrat Bold', sans-serif;
   text-decoration: none;
 }
 
@@ -50,8 +53,8 @@
 .socials svg {
   width: 3rem;
   height: 3rem;
-  fill: var(--grey);
-  color: var(--grey);
+  fill: var(--ivory);
+  color: var(--ivory);
 }
 
 .socials svg:hover {

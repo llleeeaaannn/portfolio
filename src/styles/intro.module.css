@@ -6,6 +6,7 @@
   width: 100%;
   height: 100vh;
   background-color: var(--navy);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .introContent {
@@ -20,12 +21,14 @@
 .introContent h1 {
   color: var(--ivory);
   font-size: var(--fs-xxxl);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .introContent > span {
   color: var(--ivory);
   font-size: var(--fs-md);
-  width: 70%;
+  font-family: 'Montserrat Light', sans-serif;
+  width: 60%;
 }
 
 /* CV Styling */
@@ -40,12 +43,14 @@
   color: var(--orange);
   font-size: var(--fs-md);
   text-decoration: none;
+  font-family: 'Montserrat Bold', sans-serif;
 }
 
 .cv svg {
   fill: var(--orange);
   height:  var(--fs-md);
   width:  var(--fs-md);
+  transform: scale(1.1);
   cursor: pointer;
 }
 

@@ -12,4 +12,5 @@
   color: var(--ivory);
   background-color: var(--navy);
   padding: 0.5rem 0.75rem;
+  font-family: 'Montserrat Bold', sans-serif;
 }

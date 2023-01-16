@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 5rem;
-  border: 1px solid green;
 }
 
 .overview {
@@ -31,17 +30,21 @@
 }
 
 .overview h4 {
-  font-size: var(--fs-base);
+  font-size: var(--fs-sm);
   margin-bottom: 0.5rem;
+  font-family: 'Montserrat Light', sans-serif;
+  text-transform: uppercase;
 }
 
 .name {
   font-size: var(--fs-xl);
+  font-family: 'Montserrat Black', sans-serif;
   margin-bottom: 1rem;
 }
 
 .overview p {
   font-size: var(--fs-base);
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 1.5rem;
 }
 
@@ -49,13 +52,13 @@
   text-decoration: none;
 }
 
-
+/* Button Styling */
 .button {
-  color: var(--orange);
+  color: var(--ivory);
   text-decoration: none;
   font-size: var(--fs-base);
-  font-weight: 900;
-  background-color: var(--ivory);
+  font-family: 'Montserrat Bold', sans-serif;
+  background-color: var(--orange);
   padding: 1.25rem 2.5rem;
   border: none;
   border: 3px solid var(--orange);
@@ -63,8 +66,8 @@
 }
 
 .button:hover {
-  color: var(--ivory);
-  background-color: var(--orange);
+  color: var(--orange);
+  background-color: var(--ivory);
   border: 3px solid var(--orange);
   transition: all 300ms ease-in-out;
 }

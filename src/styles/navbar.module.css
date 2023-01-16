@@ -18,3 +18,7 @@
 .navbar span:hover {
   cursor: pointer;
 }
+
+.logo {
+  font-family: 'Montserrat Black', sans-serif;
+}

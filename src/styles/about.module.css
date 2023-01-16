@@ -14,13 +14,16 @@
 
 .about h2 {
   font-size: var(--fs-lg);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about h3 {
   font-weight: bold;
   font-size: var(--fs-base);
+  font-family: 'Montserrat Bold', sans-serif;
 }
 
 .about p {
   font-size: var(--fs-base);
+  font-family: 'Montserrat', sans-serif;
 }

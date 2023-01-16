@@ -3,7 +3,6 @@ import Intro from '../components/intro';
 import About from '../components/about';
 import Footer from '../components/footer';
 import Skills from '../components/skills';
-import Contact from '../components/contact';
 import BlogList from '../components/bloglist';
 import ProjectList from '../components/projectlist';
 
@@ -17,7 +16,6 @@ const Home = () => {
         <Skills />
         <ProjectList />
         <BlogList />
-        <Contact />
       </div>
       <Footer />
     </div>
@@ -25,3 +23,6 @@ const Home = () => {
 }
 
 export default Home;
+
+// Add appearing underline on some hover elements (blog buttons..)
+// Add appearing menu from hamburger menu
