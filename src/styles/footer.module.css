@@ -7,13 +7,12 @@
   padding: 2.5rem 7.5rem;
 }
 
-.footer > div {
-}
-
 /* Overview Styling */
 .overview {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .overview h4 {
@@ -28,6 +27,11 @@
   margin-bottom: 0.5rem;
 }
 
+.overview a {
+  color: var(--grey);
+  font-size: var(--fs-sm);
+  text-decoration: none;
+}
 
 /* Social Styling */
 .social {

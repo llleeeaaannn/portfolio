@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.overview}>
         <h4>Frank Pierce</h4>
-        <span>© 2023, Built and designed</span>
-        <span>by Frank Pierce</span>
+        <span>Built and designed by Frank Pierce</span>
+        <a href="mailto:piercefrank10@gmail.com">piercefrank10@gmail.com</a>
       </div>
 
       <div className={styles.social}>
