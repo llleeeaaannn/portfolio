@@ -40,5 +40,3 @@ const Menu = () => {
 }
 
 export default Menu;
-
-// Add close menu button in bottom corner too (changes same state as hamburger close button)
