@@ -1,22 +1,63 @@
 .footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
   width: 100%;
-  padding: 5rem 7.5rem;
+  padding: 2.5rem 7.5rem;
 }
 
 .footer > div {
-  border: 1px solid red;
 }
 
+/* Overview Styling */
 .overview {
-
+  display: flex;
+  flex-direction: column;
 }
 
-.links {
-
+.overview h4 {
+  color: var(--ivory);
+  font-size: var(--fs-lg);
+  margin-bottom: 0.5rem;
 }
 
+.overview span {
+  color: var(--grey);
+  font-size: var(--fs-sm);
+  margin-bottom: 0.5rem;
+}
+
+
+/* Social Styling */
 .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.socials svg {
+  width: 3rem;
+  height: 3rem;
+  fill: var(--grey);
+  color: var(--grey);
+}
+
+.socials svg:hover {
+  fill: var(--orange);
+  color: var(--orange);
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.socials svg:first-child {
+  width: 2.9rem;
+  height: 2.9rem;
 }

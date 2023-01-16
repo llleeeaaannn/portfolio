@@ -9,7 +9,7 @@ const Intro = () => {
       <Navbar />
       <div className={styles.introContent}>
         <h1>Hi, I'm Frank | Software Developer</h1>
-        <Socials />
+        <Socials style={styles.socials}/>
         <span>I love developing and designing web applications. I'm a lifelong learner and I might have a thing for constitutional law</span>
         <div className={styles.cv}>
           <a target="_blank" rel="noopener noreferrer" href="https://www.stockle.org">Curriculum Vitae</a>
