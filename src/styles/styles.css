@@ -111,7 +111,7 @@ html {
 
 .navbarBurger .menuSelected {
   transition: all 200ms ease-in-out;
-  background-color: black;
+  background-color: var(--navy);
   transform-origin: top left;
 }
 
