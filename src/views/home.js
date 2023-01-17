@@ -37,3 +37,4 @@ export default Home;
 // Maybe fade navy into ivory
 // Add what I learnt section to each project readme
 // Get feedback on Reddit
+// Add consolelogs to all projects saying "Looking for a job, find me here: ...."
