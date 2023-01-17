@@ -1,5 +1,3 @@
-import styles from '../../styles/projects.module.css';
-
 const Stockle = () => {
 
   return (
