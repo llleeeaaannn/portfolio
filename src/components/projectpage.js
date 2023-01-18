@@ -55,7 +55,7 @@ const ProjectPage = ({ data }) => {
 
       { data.screenshots.length &&
         <div className={styles.screenshots}>
-          <h2>Screenshots</h2>
+          <h2>User Interface</h2>
           {
             data.features.map((img, i) => (
               <img alt={ data.largeImage } key={i}></img>

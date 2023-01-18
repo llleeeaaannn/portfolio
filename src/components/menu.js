@@ -26,7 +26,7 @@ const Menu = () => {
 
         <div className={styles.blogs}>
           <h3>BLOGS</h3>
-          <a href="https://piercefrank10.medium.com/understanding-screen-108173a55474" rel="noopener noreferrer" target="_blank">Understanding Screen</a>
+          <a href="https://piercefrank10.medium.com/vanilla-service-workers-in-react-89fc604339d0" rel="noopener noreferrer" target="_blank">Vanilla Service Workers in React</a>
           <a href="https://piercefrank10.medium.com/understanding-screen-108173a55474" rel="noopener noreferrer" target="_blank">Understanding Screen</a>
         </div>
       </div>
