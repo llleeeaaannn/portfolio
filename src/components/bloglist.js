@@ -1,6 +1,6 @@
 import styles from '../styles/bloglist.module.css';
 import BlogOverview from './blogoverview';
-import { screenBlogData } from '../data/blogData';
+import { screenBlogData, vanillaSWBlogData } from '../data/blogData';
 
 const BlogList = () => {
 
@@ -9,7 +9,7 @@ const BlogList = () => {
       <h2>Blog Posts</h2>
       <div className={styles.blogContainer}>
         <BlogOverview data={screenBlogData}/>
-        <BlogOverview data={screenBlogData}/>
+        <BlogOverview data={vanillaSWBlogData}/>
         <BlogOverview data={screenBlogData}/>
       </div>
       <a className={styles.allBlogs} href="https://medium.com/@piercefrank10" rel="noopener noreferrer" target="_blank">
