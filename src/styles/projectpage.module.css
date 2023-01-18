@@ -114,5 +114,6 @@
 .general p,
 .features p {
   font-size: var(--fs-base);
+  line-height: calc(var(--fs-base) + 0.4rem);
   margin-bottom: 0.5rem;
 }

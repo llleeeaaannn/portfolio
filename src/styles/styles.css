@@ -80,6 +80,7 @@ html {
 .logo {
   color: var(--orange);
   font-size: var(--fs-xl);
+	text-decoration: none;
   font-family: 'Montserrat Black', sans-serif;
   transition: all 600ms ease-in-out;
   cursor: pointer;
