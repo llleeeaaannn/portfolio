@@ -8,8 +8,8 @@ const BlogList = () => {
     <div className={styles.blogList}>
       <h2>Blog Posts</h2>
       <div className={styles.blogContainer}>
-        <BlogOverview data={screenBlogData}/>
         <BlogOverview data={vanillaSWBlogData}/>
+        <BlogOverview data={screenBlogData}/>
         <BlogOverview data={screenBlogData}/>
       </div>
       <a className={styles.allBlogs} href="https://medium.com/@piercefrank10" rel="noopener noreferrer" target="_blank">
