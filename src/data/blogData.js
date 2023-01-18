@@ -7,7 +7,7 @@ const screenBlogData = {
 
 const vanillaSWBlogData = {
   name: 'Vanilla Service Workers in React',
-  description: 'Achieving PWA status and Offline compatibility in React through Service Workers without external libraries, and why cache busting hashes make it a rare feat.',
+  description: 'Achieving PWA compliance and offline compatibility in React through Service Workers without external libraries, and why cache busting hashes make it a rare feat.',
   link: 'https://piercefrank10.medium.com/vanilla-service-workers-in-react-89fc604339d0',
   type: 'Blog'
 }
