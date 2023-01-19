@@ -10,7 +10,6 @@ const BlogList = () => {
       <div className={styles.blogContainer}>
         <BlogOverview data={vanillaSWBlogData}/>
         <BlogOverview data={screenBlogData}/>
-        <BlogOverview data={screenBlogData}/>
       </div>
       <a className={styles.allBlogs} href="https://medium.com/@piercefrank10" rel="noopener noreferrer" target="_blank">
         <span>See all blogs</span>
