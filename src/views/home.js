@@ -30,11 +30,12 @@ const Home = () => {
 
 export default Home;
 
-// Add appearing underline on some hover elements (blog buttons..)
-// Add appearing menu from hamburger menu
+
 // Remove unused fonts
 // Spell check EVERYTHING
 // Maybe fade navy into ivory
 // Add what I learnt section to each project readme
 // Get feedback on Reddit
 // Add consolelogs to all projects saying "Looking for a job, find me here: ...."
+
+// Move images folder into PUBLIC from SRC https://www.reddit.com/r/webdev/comments/8vldvm/images_in_react/
