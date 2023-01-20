@@ -37,7 +37,7 @@
 }
 
 .name {
-  font-size: var(--fs-xl);
+  font-size: var(--fs-xxl);
   font-family: 'Montserrat Black', sans-serif;
   margin-bottom: 1rem;
 }
