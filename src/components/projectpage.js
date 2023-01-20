@@ -53,17 +53,6 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.screenshots.length &&
-        <div className={styles.screenshots}>
-          <h2>User Interface</h2>
-          {
-            data.screenshots.map((img, i) => (
-              <img alt={ data.largeImage } key={i}></img>
-            ))
-          }
-        </div>
-      }
-
       { data.todo.length &&
         <div className={styles.todo}>
           <h2>To do</h2>
