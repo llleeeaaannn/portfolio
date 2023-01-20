@@ -1,6 +1,7 @@
 import './styles/styles.css';
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import ScrollToTop from './scrollToTop';
 import Home from './views/home';
 import NotFound from './views/notfound';
 import Stockle from './views/projects/stockle';
@@ -16,14 +17,16 @@ function App() {
 
   return (
     <AppContext.Provider value={{ showMenu, setShowMenu }}>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/stockle' element={<Stockle />} />
-        <Route path='/medicle' element={<Medicle />} />
-        <Route path='/spotlist' element={<Spotlist />} />
-        <Route path='/optioncent' element={<Optioncent />} />
-        <Route path='*' element={<NotFound />}/>
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/stockle' element={<Stockle />} />
+          <Route exact path='/medicle' element={<Medicle />} />
+          <Route exact path='/spotlist' element={<Spotlist />} />
+          <Route exact path='/optioncent' element={<Optioncent />} />
+          <Route path='*' element={<NotFound />}/>
+        </Routes>
+      </ScrollToTop>
     </AppContext.Provider>
   );
 }
