@@ -12,6 +12,7 @@
   z-index: 100;
 }
 
+/* Top Styling */
 .top {
   display: flex;
   flex-direction: row;
@@ -19,15 +20,6 @@
   row-gap: 3rem;
   column-gap: 7.5rem;
   padding-bottom: 5rem;
-}
-
-.bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--navy);
 }
 
 .hello,
@@ -57,17 +49,6 @@
   text-decoration: none;
 }
 
-.close,
-.copyright {
-  color: var(--navy);
-  font-size: var(--fs-base);
-  font-family: 'Montserrat', sans-serif;
-}
-
-.close:hover {
-  cursor: pointer;
-}
-
 /* Animated Underline Styling */
 .hello a,
 .projects a,
@@ -93,4 +74,39 @@
 .blogs a:hover:after {
   transform: scaleX(1);
   transform-origin: 0 50%;
+}
+
+/* Bottom Styling */
+.bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--navy);
+}
+
+.copyright {
+  margin-right: auto;
+}
+
+.home {
+  text-decoration: none;
+  padding-right: 1rem;
+  border-right: 1px solid var(--navy);
+}
+
+.close {
+  padding-left: 1rem;
+}
+
+.home,
+.close,
+.copyright {
+  color: var(--navy);
+  font-size: var(--fs-base);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home:hover,
+.close:hover {
+  cursor: pointer;
 }

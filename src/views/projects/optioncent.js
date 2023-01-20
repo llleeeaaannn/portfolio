@@ -4,7 +4,7 @@ import Menu from '../../components/menu';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
 import ProjectPage from '../../components/projectpage';
-import { stockleData } from '../../data/projectData';
+import { optioncentData } from '../../data/projectData';
 
 const Optioncent = () => {
 
@@ -13,7 +13,7 @@ const Optioncent = () => {
   return (
     <>
       <Navbar />
-      <ProjectPage data={stockleData} />
+      <ProjectPage data={optioncentData} />
       <Footer />
       { showMenu && <Menu /> }
     </>
