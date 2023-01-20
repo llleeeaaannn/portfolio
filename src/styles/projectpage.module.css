@@ -65,9 +65,10 @@
   border: 1px solid green;
 }
 
+.todo,
 .goals,
 .general,
-.features,
+.technical,
 .screenshots {
   display: flex;
   flex-direction: column;
@@ -75,9 +76,10 @@
   align-items: flex-start;
 }
 
+.todo h2,
 .goals h2,
 .general h2,
-.features h2,
+.technical h2,
 .screenshots h2 {
   color: var(--navy);
   font-size: var(--fs-lg);
@@ -86,18 +88,19 @@
 }
 
 /* Styling for marker underline */
+.todo h2,
 .goals h2,
 .general h2,
-.features h2,
+.technical h2,
 .screenshots h2 {
   position: relative;
   z-index: 1;
 }
 
-
+.todo h2::before,
 .goals h2::before,
 .general h2::before,
-.features h2::before,
+.technical h2::before,
 .screenshots h2::before {
   content: "";
   position: absolute;
@@ -110,10 +113,17 @@
   z-index: -1;
 }
 
+.todo li,
+.todo span,
 .goals p,
 .general p,
-.features p {
+.technical p {
   font-size: var(--fs-base);
   line-height: calc(var(--fs-base) + 0.4rem);
   margin-bottom: 0.5rem;
+}
+
+.todo li {
+  margin-left: 2rem;
+  list-style-type: circle;
 }

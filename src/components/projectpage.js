@@ -22,7 +22,7 @@ const ProjectPage = ({ data }) => {
 
       { data.goals.length &&
         <div className={styles.goals}>
-          <h2>Goals</h2>
+          <h2>Motivation & Goals</h2>
           {
             data.goals.map((line, i) => (
               <p key={i}>{ line }</p>
@@ -42,11 +42,11 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.features.length &&
-        <div className={styles.features}>
-          <h2>Features</h2>
+      { data.technical.length &&
+        <div className={styles.technical}>
+          <h2>Technical Summary</h2>
           {
-            data.features.map((line, i) => (
+            data.technical.map((line, i) => (
               <p key={i}>{ line }</p>
             ))
           }
@@ -57,10 +57,24 @@ const ProjectPage = ({ data }) => {
         <div className={styles.screenshots}>
           <h2>User Interface</h2>
           {
-            data.features.map((img, i) => (
+            data.screenshots.map((img, i) => (
               <img alt={ data.largeImage } key={i}></img>
             ))
           }
+        </div>
+      }
+
+      { data.todo.length &&
+        <div className={styles.todo}>
+          <h2>To do</h2>
+          <span>A few of the features I hope to integrate into {data.name} in the future:</span>
+          <ul>
+          {
+            data.todo.map((line, i) => (
+              <li key={i}>{ line }</li>
+            ))
+          }
+          </ul>
         </div>
       }
 
