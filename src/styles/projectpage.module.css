@@ -56,13 +56,25 @@
   font-size: var(--fs-md);
 }
 
-
+/* Image Styling */
 .largeImage {
   display: grid;
   place-items: center;
-  width: 100%;
-  height: 30rem;
-  border: 1px solid green;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* Add handling for smaller screens */
+.screenshots > div {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.screenshots img {
+  width: 30%;
 }
 
 .todo,

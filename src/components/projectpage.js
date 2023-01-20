@@ -16,9 +16,7 @@ const ProjectPage = ({ data }) => {
         { data.shortDescription && <p className={styles.description}>{data.shortDescription}</p> }
       </div>
 
-      <div className={styles.largeImage}>
-        { data.largeImage && <img alt={ data.largeImage }></img> }
-      </div>
+      { data.largeImage && <img src={data.largeImage} alt={data.largeImage} className={styles.largeImage}></img> }
 
       { data.goals.length &&
         <div className={styles.goals}>
@@ -50,6 +48,19 @@ const ProjectPage = ({ data }) => {
               <p key={i}>{ line }</p>
             ))
           }
+        </div>
+      }
+
+      { data.screenshots.length &&
+        <div className={styles.screenshots}>
+          <h2>User Interface</h2>
+          <div>
+          {
+            data.screenshots.map((path, i) => (
+              <img src={path} alt="Screenshot of User Interface" key={i}></img>
+            ))
+          }
+          </div>
         </div>
       }
 

@@ -29,8 +29,11 @@ const stockleData = {
   live: 'https://www.stockle.org/',
   github: 'https://github.com/llleeeaaannn/stockle',
   image: 'This is the stockle image',
-  largeImage: 'This is a wide image'
+  largeImage: "/images/stockle/stockleLargeImage.png",
+  screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
 }
+
+// Add hard mode as feature
 
 const spotlistData = {
   name: 'Spotlist',
@@ -46,7 +49,7 @@ const spotlistData = {
   live: 'https://www.spotlist.net/',
   github: 'https://github.com/llleeeaaannn/spotlist',
   image: 'This is the Spotlist image',
-  largeImage: ''
+  largeImage: "/images/spotlist/spotlistLargeImage.png"
 }
 
 const optioncentData = {
