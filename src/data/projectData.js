@@ -28,7 +28,7 @@ const stockleData = {
   link: '/stockle',
   live: 'https://www.stockle.org/',
   github: 'https://github.com/llleeeaaannn/stockle',
-  image: 'This is the stockle image',
+  image: "/images/stockle/stockleOverviewImage.png",
   largeImage: "/images/stockle/stockleLargeImage.png",
   screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
 }
@@ -48,8 +48,9 @@ const spotlistData = {
   link: '/spotlist',
   live: 'https://www.spotlist.net/',
   github: 'https://github.com/llleeeaaannn/spotlist',
-  image: 'This is the Spotlist image',
-  largeImage: "/images/spotlist/spotlistLargeImage.png"
+  image: "/images/spotlist/spotlistOverviewImage.png",
+  largeImage: "/images/spotlist/spotlistLargeImage.png",
+  screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
 }
 
 const optioncentData = {
@@ -66,7 +67,8 @@ const optioncentData = {
   live: '',
   github: 'https://github.com/llleeeaaannn/optioncent',
   image: 'This is the Optioncent image',
-  largeImage: ''
+  largeImage: '',
+  screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
 }
 
 export { template, stockleData, spotlistData, optioncentData }

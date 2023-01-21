@@ -20,7 +20,18 @@
   align-items: center;
   width: 40%;
   max-width: 40%;
-  border: 1px solid red;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 1rem;
+  transition: all 200ms ease-in-out;
+}
+
+.image img:hover {
+  transform: scale(1.025);
+  box-shadow: 0rem 0rem 2rem 1rem var(--shadow);
+  transition: all 200ms ease-in-out;
 }
 
 .name,

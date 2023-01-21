@@ -21,11 +21,9 @@ const ProjectOverview = ({ data }) => {
         }
         <Link className={styles.button} to={data.link}>View Project</Link>
       </div>
-      <div className={styles.image}>
-        { data.image &&
-          <img alt={ data.image }></img>
-        }
-      </div>
+      <Link className={styles.image} to={data.link}>
+        <img src={data.image} alt={`${data.name} UI`}></img>
+      </Link>
     </div>
   )
 }
