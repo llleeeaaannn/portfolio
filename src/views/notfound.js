@@ -1,19 +1,29 @@
-import { useEffect } from 'react';
+import { useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AppContext } from '../App';
+import Menu from '../components/menu';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import styles from '../styles/notfound.module.css';
 
 const NotFound = () => {
+
+  const { showMenu } = useContext(AppContext);
 
   useEffect(() => {
     document.title = 'Page Not Found';
   }, []);
 
   return (
-    <div className={styles.notFound}>
-        <span>404 Error</span>
+    <>
+      <Navbar />
+      <div className={styles.notFound}>
+        <h2>404</h2>
         <span>Unfortunately, this page doesn't exist</span>
         <Link to="/">Return Home</Link>
-    </div>
+      </div>
+      { showMenu && <Menu /> }
+    </>
   )
 }
 
