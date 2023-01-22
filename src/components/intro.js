@@ -9,6 +9,8 @@ const Intro = () => {
       <Navbar />
       <div className={styles.introContent}>
         <h1>Hi, I'm Frank | Software Developer</h1>
+        <h2>Hi, I'm Frank</h2>
+        <h3>Software Developer</h3>
         <Socials style={styles.socials}/>
         <span>I love developing and designing web applications. I'm a lifelong learner and spend far too much time powerlfiting.</span>
         <div className={styles.cv}>

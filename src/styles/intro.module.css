@@ -18,10 +18,30 @@
   padding: 7.5rem;
 }
 
-.introContent h1 {
+/* Heading Styling (including show & hide) */
+.introContent h1,
+.introContent h2,
+.introContent h3 {
   color: var(--ivory);
-  font-size: var(--fs-xxxl);
   font-family: 'Montserrat', sans-serif;
+}
+
+.introContent h1 {
+  font-size: var(--fs-xxxl)
+}
+
+.introContent h2 {
+  font-size: var(--fs-xxxl)
+}
+
+.introContent h3 {
+  font-size: var(--fs-xl);
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+.introContent h2,
+.introContent h3 {
+  display: none;
 }
 
 .introContent > span {
@@ -83,16 +103,23 @@
 /* Media Query for Mobile Devices below 480px in width */
 @media (max-device-width: 576px) {
 
-  .intro {
-
-  }
-
   .introContent {
     padding: 2.5rem;
+    gap: 1rem;
   }
 
   .introContent > span {
     width: 100%;
+  }
+
+  /* Show & Hide Headings */
+  .introContent h1 {
+    display: none;
+  }
+
+  .introContent h2,
+  .introContent h3 {
+    display: block;
   }
 
 }
