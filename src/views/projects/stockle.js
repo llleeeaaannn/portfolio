@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useEffect, useContext } from 'react';
 import { AppContext } from '../../App';
 import Menu from '../../components/menu';
 import Navbar from '../../components/navbar';
@@ -9,6 +9,10 @@ import { stockleData } from '../../data/projectData';
 const Stockle = () => {
 
   const { showMenu } = useContext(AppContext);
+
+  useEffect(() => {
+    document.title = 'Stockle';
+  }, []);
 
   return (
     <>

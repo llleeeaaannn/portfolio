@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles/notfound.module.css';
 
 const NotFound = () => {
+
+  useEffect(() => {
+    document.title = 'Page Not Found';
+  }, []);
 
   return (
     <div className={styles.notFound}>

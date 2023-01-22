@@ -1,5 +1,5 @@
 import styles from '../styles/home.module.css';
-import { useContext } from 'react';
+import { useEffect, useContext } from 'react';
 import { AppContext } from '../App';
 import Menu from '../components/menu';
 import Intro from '../components/intro';
@@ -12,6 +12,10 @@ import ProjectList from '../components/projectlist';
 const Home = () => {
 
   const { showMenu } = useContext(AppContext);
+
+  useEffect(() => {
+    document.title = 'Frank Pierce';
+  }, []);
 
   return (
     <div className={styles.home}>
