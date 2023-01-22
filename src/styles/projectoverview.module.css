@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 5rem;
 }
 
 .overview {
@@ -82,4 +81,24 @@
   background-color: var(--ivory);
   border: 3px solid var(--orange);
   transition: all 300ms ease-in-out;
+}
+
+
+@media (max-device-width: 576px) {
+  .projectTab {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .overview {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+  }
+
 }

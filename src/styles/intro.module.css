@@ -79,3 +79,20 @@
   width: 2.9rem;
   height: 2.9rem;
 }
+
+/* Media Query for Mobile Devices below 480px in width */
+@media (max-device-width: 576px) {
+
+  .intro {
+
+  }
+
+  .introContent {
+    padding: 2.5rem;
+  }
+
+  .introContent > span {
+    width: 100%;
+  }
+
+}

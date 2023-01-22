@@ -69,3 +69,14 @@
   width: 2.9rem;
   height: 2.9rem;
 }
+
+/* Media Query for Mobile Devices below 576px in width */
+@media (max-device-width: 576px) {
+
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem;
+  }
+
+}

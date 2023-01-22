@@ -34,8 +34,8 @@ const Menu = () => {
 
       <div className={styles.bottom}>
         <span className={styles.copyright}>&copy; Frank Pierce</span>
-        <Link to='/' className={styles.home} onClick={() => setShowMenu(false)}>Return Home</Link>
         <span className={styles.close} onClick={() => setShowMenu(!showMenu)}>Close Menu</span>
+        <Link to='/' className={styles.home} onClick={() => setShowMenu(false)}>Return Home</Link>
       </div>
     </div>
   )

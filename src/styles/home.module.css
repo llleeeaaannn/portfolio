@@ -7,3 +7,15 @@
   padding: 5rem 7.5rem;
   background-color: var(--ivory);
 }
+
+/* Media Query for Mobile Devices below 576px in width */
+@media (max-device-width: 576px) {
+
+  .home {
+  }
+
+  .content {
+    padding: 2.5rem;
+  }
+
+}
