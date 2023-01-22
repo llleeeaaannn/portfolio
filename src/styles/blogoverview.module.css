@@ -58,7 +58,9 @@
 
 /* Media Query for Mobile Devices below 576px in width */
 @media (max-device-width: 576px) {
+
   .blogOverview h4 {
     margin-bottom: 0.5rem;
   }
+  
 }

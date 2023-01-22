@@ -50,7 +50,7 @@ const spotlistData = {
   github: 'https://github.com/llleeeaaannn/spotlist',
   image: "/images/spotlist/spotlistOverviewImage.png",
   largeImage: "/images/spotlist/spotlistLargeImage.png",
-  screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
+  screenshots: ["/images/stockle/spotlistUI1.png", "/images/stockle/spotlistUI2.png", "/images/stockle/spotlistUI3.png"]
 }
 
 const optioncentData = {
