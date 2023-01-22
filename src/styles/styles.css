@@ -73,9 +73,10 @@ table {
   box-sizing: border-box;
 }
 
-* {
+/* Outline for style testing */
+/* * {
   outline: 1px solid red !important;
-}
+} */
 
 html {
 	background-color: var(--navy);
