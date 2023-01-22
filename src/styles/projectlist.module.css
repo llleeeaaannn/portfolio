@@ -37,3 +37,17 @@
   background: var(--orange);
   z-index: -1;
 }
+
+/* Media Query for Mobile Devices below 576px in width */
+@media (max-device-width: 576px) {
+
+  .projectList {
+    gap: 3rem;
+  }
+
+  /* Reduce Gap */
+  .projectList > :nth-child(2) {
+    margin-top: -1.5rem;
+  }
+
+}
