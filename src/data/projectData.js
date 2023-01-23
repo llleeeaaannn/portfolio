@@ -50,7 +50,7 @@ const spotlistData = {
   github: 'https://github.com/llleeeaaannn/spotlist',
   image: "/images/spotlist/spotlistOverviewImage.png",
   largeImage: "/images/spotlist/spotlistLargeImage.png",
-  screenshots: ["/images/stockle/spotlistUI1.png", "/images/stockle/spotlistUI2.png", "/images/stockle/spotlistUI3.png"]
+  screenshots: ["/images/spotlist/spotlistUI1.png", "/images/spotlist/spotlistUI2.png", "/images/spotlist/spotlistUI3.png"]
 }
 
 const optioncentData = {
@@ -66,9 +66,9 @@ const optioncentData = {
   link: '/optioncent',
   live: '',
   github: 'https://github.com/llleeeaaannn/optioncent',
-  image: 'This is the Optioncent image',
-  largeImage: '',
-  screenshots: ["/images/stockle/stockleUI1.png", "/images/stockle/stockleUI2.png", "/images/stockle/stockleUI3.png"]
+  image: "/images/optioncent/optioncentOverviewImage.png",
+  largeImage: "/images/optioncent/optioncentLargeImage.png",
+  screenshots: []
 }
 
 export { template, stockleData, spotlistData, optioncentData }
