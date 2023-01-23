@@ -12,13 +12,13 @@ const ProjectPage = ({ data }) => {
       </div>
 
       <div className={styles.summary}>
-        { data.technologies.length && <Technologies data={data.technologies}/> }
+        { !!data.technologies.length && <Technologies data={data.technologies}/> }
         { data.shortDescription && <p className={styles.description}>{data.shortDescription}</p> }
       </div>
 
       { data.largeImage && <img src={data.largeImage} alt={data.largeImage} className={styles.largeImage}></img> }
 
-      { data.goals.length &&
+      { !!data.goals.length &&
         <div className={styles.goals}>
           <h2>Motivation & Goals</h2>
           {
@@ -29,7 +29,7 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.general.length &&
+      { !!data.general.length &&
         <div className={styles.general}>
           <h2>General Information</h2>
           {
@@ -40,7 +40,7 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.technical.length &&
+      { !!data.technical.length &&
         <div className={styles.technical}>
           <h2>Technical Summary</h2>
           {
@@ -51,7 +51,7 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.screenshots.length &&
+      { !!data.screenshots.length &&
         <div className={styles.screenshots}>
           <h2>User Interface</h2>
           <div>
@@ -64,7 +64,7 @@ const ProjectPage = ({ data }) => {
         </div>
       }
 
-      { data.todo.length &&
+      { !!data.todo.length &&
         <div className={styles.todo}>
           <h2>To do</h2>
           <span>A few of the features I hope to integrate into {data.name} in the future:</span>

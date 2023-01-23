@@ -62,7 +62,7 @@ const optioncentData = {
   goals: ["", "", ""],
   general: ["", "", ""],
   technical: ["", "", ""],
-  todo: ["", "", ""],
+  todo: [],
   link: '/optioncent',
   live: '',
   github: 'https://github.com/llleeeaaannn/optioncent',
