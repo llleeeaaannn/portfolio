@@ -12,7 +12,7 @@ const Intro = () => {
         <h2>Hi, I'm Frank</h2>
         <h3>Software Developer</h3>
         <Socials style={styles.socials}/>
-        <span>I love developing and designing web applications. I'm a lifelong learner and spend far too much time powerlfiting.</span>
+        <span>I love developing and designing web applications. I'm a lifelong learner and spend far too much time powerlifting.</span>
         <div className={styles.cv}>
           <a target="_blank" rel="noopener noreferrer" href="https://www.stockle.org">Curriculum Vitae</a>
           <svg viewBox="0 0 24 24">
