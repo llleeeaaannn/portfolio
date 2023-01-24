@@ -1,6 +1,6 @@
 import styles from '../styles/bloglist.module.css';
 import BlogOverview from './blogoverview';
-import { screenBlogData, vanillaSWBlogData } from '../data/blogData';
+import { screenBlogData, vanillaSWBlogData, arrayLengthBlogData } from '../data/blogData';
 
 const BlogList = () => {
 
