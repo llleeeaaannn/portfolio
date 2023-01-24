@@ -5,6 +5,7 @@
   width: 100%;
   padding: 5rem 7.5rem;
   padding-top: 7.5rem;
+  color: var(--navy);
   background-color: var(--ivory);
   font-family: 'Montserrat', sans-serif;
 }
@@ -136,8 +137,9 @@
 }
 
 .todo li {
-  margin-left: 2rem;
-  list-style-type: circle;
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 1.5rem;
 }
 
 /* Media Query for Mobile Devices below 576px in width */
