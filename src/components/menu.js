@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { AppContext } from '../App';
 import { Link } from 'react-router-dom';
 import styles from '../styles/menu.module.css';
+import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
 
 const Menu = () => {
 
@@ -27,8 +28,9 @@ const Menu = () => {
 
         <div className={styles.blogs}>
           <h3>BLOGS</h3>
-          <a href="https://piercefrank10.medium.com/vanilla-service-workers-in-react-89fc604339d0" rel="noopener noreferrer" target="_blank">Vanilla Service Workers in React</a>
-          <a href="https://piercefrank10.medium.com/understanding-screen-108173a55474" rel="noopener noreferrer" target="_blank">Understanding Screen</a>
+          <a href={renderingBlogData.link} rel="noopener noreferrer" target="_blank">{renderingBlogData.name}</a>
+          <a href={vanillaSWBlogData.link} rel="noopener noreferrer" target="_blank">{vanillaSWBlogData.name}</a>
+          <a href={screenBlogData.link} rel="noopener noreferrer" target="_blank">{screenBlogData.name}</a>
         </div>
       </div>
 

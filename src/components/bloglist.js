@@ -1,6 +1,6 @@
 import styles from '../styles/bloglist.module.css';
 import BlogOverview from './blogoverview';
-import { screenBlogData, vanillaSWBlogData, arrayLengthBlogData } from '../data/blogData';
+import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
 
 const BlogList = () => {
 
@@ -8,6 +8,7 @@ const BlogList = () => {
     <div className={styles.blogList}>
       <h2>Blog Posts</h2>
       <div className={styles.blogContainer}>
+        <BlogOverview data={renderingBlogData}/>
         <BlogOverview data={vanillaSWBlogData}/>
         <BlogOverview data={screenBlogData}/>
       </div>

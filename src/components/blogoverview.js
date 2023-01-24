@@ -2,6 +2,8 @@ import styles from '../styles/blogoverview.module.css';
 
 const BlogOverview = ({ data }) => {
 
+  const lol = 0;
+
   return (
     <div className={styles.blogOverview}>
       { data.type &&
