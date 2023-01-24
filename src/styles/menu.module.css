@@ -50,6 +50,8 @@
 }
 
 /* Animated Underline Styling */
+.home,
+.close,
 .hello a,
 .projects a,
 .blogs a {
@@ -58,6 +60,8 @@
   display: inline-block;
 }
 
+.home:after,
+.close:after,
 .hello a:after,
 .projects a:after,
 .blogs a:after {
@@ -69,6 +73,8 @@
   transform-origin: 100% 50%;
 }
 
+.home:hover:after,
+.close:hover:after,
 .hello a:hover:after,
 .projects a:hover:after,
 .blogs a:hover:after {

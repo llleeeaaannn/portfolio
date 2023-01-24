@@ -54,25 +54,32 @@
 
 /* CV Styling */
 .cv {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  margin-top: 0.25rem;
-}
-
-.cv a {
   color: var(--orange);
   font-size: var(--fs-md);
   text-decoration: none;
   font-family: 'Montserrat Bold', sans-serif;
+  margin-top: 0.25rem;
 }
 
-.cv svg {
-  fill: var(--orange);
-  height:  var(--fs-md);
-  width:  var(--fs-md);
-  transform: scale(1.1);
-  cursor: pointer;
+/* Animated Underline Styling */
+.cv {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv:after {
+  display: block;
+  content: '';
+  border-bottom: 1px solid var(--orange);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 100% 50%;
+}
+
+.cv:hover:after {
+  transform: scaleX(1);
+  transform-origin: 0 50%;
 }
 
 /* Socials Styling */
