@@ -22,6 +22,7 @@
 .blogOverview p {
   color: var(--navy);
   font-size: var(--fs-base);
+  line-height: calc(var(--fs-base) + 0.25rem);
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1rem;
 }

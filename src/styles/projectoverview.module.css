@@ -55,6 +55,7 @@
 .overview p {
   font-size: var(--fs-base);
   font-family: 'Montserrat', sans-serif;
+  line-height: calc(var(--fs-base) + 0.25rem);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }

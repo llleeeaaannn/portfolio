@@ -47,6 +47,7 @@
 .introContent > span {
   color: var(--ivory);
   font-size: var(--fs-md);
+  line-height: calc(var(--fs-md) + 0.25rem);
   font-family: 'Montserrat Light', sans-serif;
   width: 60%;
 }
