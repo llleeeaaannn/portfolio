@@ -13,7 +13,7 @@ const vanillaSWBlogData = {
 }
 
 const renderingBlogData = {
-  name: 'Short-Circuit Evaluation & Conditional Rendering',
+  name: 'Short-Circuit Evaluation in React',
   description: 'Conditional rendering in React is great, here’s a trick to make sure you don’t get caught out by Javascript’s short-circuit evaluation.',
   link: 'https://piercefrank10.medium.com/short-circuit-evaluation-conditional-rendering-a2dbc2220176',
   type: 'Tips & Tricks'

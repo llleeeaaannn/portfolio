@@ -44,7 +44,7 @@
 }
 
 /* Media Query for Mobile Devices below 576px in width */
-@media (max-device-width: 576px) {
+@media (max-width: 576px) {
 
   .notFound {
     padding: 5rem 2.5rem;

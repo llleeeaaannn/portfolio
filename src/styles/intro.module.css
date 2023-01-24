@@ -102,7 +102,7 @@
 }
 
 /* Media Query for Mobile Devices below 480px in width */
-@media (max-device-width: 576px) {
+@media (max-width: 576px) {
 
   .introContent {
     padding: 2.5rem;
@@ -111,6 +111,30 @@
 
   .introContent > span {
     width: 100%;
+  }
+
+  /* Show & Hide Headings */
+  .introContent h1 {
+    display: none;
+  }
+
+  .introContent h2,
+  .introContent h3 {
+    display: block;
+  }
+
+}
+
+/* Media Query for Tablet Devices above 577px and below 992px in width */
+@media (min-width: 577px) and (max-width: 992px) {
+
+  .introContent {
+    padding: 5rem;
+    gap: 1rem;
+  }
+
+  .introContent > span {
+    width: 90%;
   }
 
   /* Show & Hide Headings */

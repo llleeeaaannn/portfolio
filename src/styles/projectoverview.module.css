@@ -85,7 +85,30 @@
 }
 
 
-@media (max-device-width: 576px) {
+@media (max-width: 576px) {
+
+  .projectTab {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .overview {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .image {
+    display: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
+
+/* Media Query for Tablet Devices above 577px and below 992px in width */
+@media (min-width: 577px) and (max-width: 992px) {
+
   .projectTab {
     display: flex;
     flex-direction: column;

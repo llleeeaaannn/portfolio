@@ -42,5 +42,3 @@ export default Home;
 // Get feedback on Reddit
 // Add consolelogs to all projects saying "Looking for a job, find me here: ...."
 // Host CV
-
-// Move images folder into PUBLIC from SRC https://www.reddit.com/r/webdev/comments/8vldvm/images_in_react/

@@ -39,7 +39,7 @@
 }
 
 /* Media Query for Mobile Devices below 576px in width */
-@media (max-device-width: 576px) {
+@media (max-width: 576px) {
 
   .projectList {
     gap: 3rem;
@@ -49,5 +49,10 @@
   .projectList > :nth-child(2) {
     margin-top: -1.5rem;
   }
+
+}
+
+/* Media Query for Tablet Devices above 577px and below 992px in width */
+@media (min-width: 577px) and (max-width: 992px) {
 
 }
