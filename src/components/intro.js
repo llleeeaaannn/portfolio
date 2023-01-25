@@ -1,7 +1,6 @@
 import styles from '../styles/intro.module.css';
 import Socials from './socials';
 import Navbar from './navbar';
-// import pdf from '../../public/FrankPierceCV.pdf'
 
 const Intro = () => {
 
