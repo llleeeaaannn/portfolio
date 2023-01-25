@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { AppContext } from '../App';
 import { Link } from 'react-router-dom';
 import styles from '../styles/menu.module.css';
+import { githubLink, linkedinLink, emailLink } from '../data/linkData';
 import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
 import { stockleData, spotlistData, optioncentData, medicleData } from '../data/projectData';
 
@@ -14,9 +15,9 @@ const Menu = () => {
       <div className={styles.top}>
         <div className={styles.hello}>
           <h3>SAY HELLO</h3>
-          <a href="https://github.com/llleeeaaannn" rel="noopener noreferrer" target="_blank">GitHub</a>
-          <a href="https://github.com/llleeeaaannn" rel="noopener noreferrer" target="_blank">Linkedin</a>
-          <a href="mailto:piercefrank10@gmail.com">piercefrank10@gmail.com</a>
+          <a href={ githubLink } rel="noopener noreferrer" target="_blank">GitHub</a>
+          <a href={ linkedinLink } rel="noopener noreferrer" target="_blank">Linkedin</a>
+          <a href={ emailLink }>piercefrank10@gmail.com</a>
         </div>
 
         <div className={styles.projects}>
