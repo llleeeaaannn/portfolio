@@ -7,7 +7,7 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
-  padding: 10rem;
+  padding: 10rem 10%;
   background-color: var(--orange);
   z-index: 100;
 }
@@ -174,11 +174,12 @@
 @media (min-width: 577px) and (max-width: 992px) {
 
   .menu {
-    padding: 5rem;
+    padding: 5rem 10%;
   }
 
   /* Top Styling */
   .top {
+    flex-direction: column;
     row-gap: 1.5rem;
     padding-bottom: 3rem;
   }
