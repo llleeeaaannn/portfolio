@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styles from '../styles/footer.module.css';
 import Socials from './socials';
 import { emailLink } from '../data/linkData';
@@ -10,7 +9,7 @@ const Footer = () => {
       <div className={styles.overview}>
         <h4>Frank Pierce</h4>
         <span>Built and designed by Frank Pierce</span>
-        <a href={ emailLink }>piercefrank10@gmail.com</a>
+        <a href={ emailLink }>frank.pierceee@gmail.com</a>
       </div>
 
       <div className={styles.social}>
