@@ -75,7 +75,7 @@ const optioncentData = {
   github: 'https://github.com/llleeeaaannn/optioncent',
   image: "/images/optioncent/optioncentOverviewImage.png",
   largeImage: "/images/optioncent/optioncentLargeImage.png",
-  screenshots: []
+  screenshots: ["/images/optioncent/optioncentUI1.png", "/images/optioncent/optioncentUI2.png", "/images/optioncent/optioncentUI3.png"]
 }
 
 const medicleData = {
