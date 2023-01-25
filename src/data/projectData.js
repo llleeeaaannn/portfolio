@@ -12,7 +12,8 @@ const template = {
   live: "",
   github: "",
   image: "",
-  largeImage: ""
+  largeImage: "",
+  screenshots: []
 }
 
 const stockleData = {
@@ -77,7 +78,25 @@ const optioncentData = {
   screenshots: []
 }
 
-export { template, stockleData, spotlistData, optioncentData }
+const medicleData = {
+  name: "Medicle",
+  type: "",
+  shortDescription: "",
+  longDescription: "",
+  technologies: ["", "", ""],
+  goals: ["", "", ""],
+  general: ["", "", ""],
+  technical: ["", "", ""],
+  todo: ["", "", ""],
+  link: "",
+  live: "https://www.medicle.net/",
+  github: "https://github.com/llleeeaaannn/medicle",
+  image: "",
+  largeImage: "",
+  screenshots: []
+}
+
+export { stockleData, spotlistData, optioncentData, medicleData }
 
 // Add tehcnical summary info and usage
 // Remove screenshots section and add "For more images see github..."

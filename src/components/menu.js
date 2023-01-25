@@ -3,6 +3,7 @@ import { AppContext } from '../App';
 import { Link } from 'react-router-dom';
 import styles from '../styles/menu.module.css';
 import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
+import { stockleData, spotlistData, optioncentData, medicleData } from '../data/projectData';
 
 const Menu = () => {
 
@@ -20,10 +21,10 @@ const Menu = () => {
 
         <div className={styles.projects}>
           <h3>MY WORK</h3>
-          <a href="https://www.stockle.org/" rel="noopener noreferrer" target="_blank">Stockle</a>
-          <a href="https://www.spotlist.net/" rel="noopener noreferrer" target="_blank">Spotlist</a>
-          <a href="https://www.spotlist.net/" rel="noopener noreferrer" target="_blank">Optioncent</a>
-          <a href="https://www.medicle.net/" rel="noopener noreferrer" target="_blank">Medicle</a>
+          <a href={stockleData.live} rel="noopener noreferrer" target="_blank">{stockleData.name}</a>
+          <a href={spotlistData.live} rel="noopener noreferrer" target="_blank">{spotlistData.name}</a>
+          <a href={optioncentData.live} rel="noopener noreferrer" target="_blank">{optioncentData.name}</a>
+          <a href={medicleData.live} rel="noopener noreferrer" target="_blank">{medicleData.name}</a>
         </div>
 
         <div className={styles.blogs}>
