@@ -65,8 +65,8 @@ const optioncentData = {
   type: 'Personal Project',
   shortDescription: "A React Web Application which displays stock option prices as a percentage of their underlying asset's value providing traders an objective and data-focused perspective on their investment strategies.",
   longDescription: "A React Web Application which displays stock option prices as a percentage of their underlying asset's value providing traders an objective and data-focused perspective on their investment strategies.",
-  technologies: ['React', 'Javascript', 'HTML', 'CSS', 'Tailwind', 'Tradier API', 'Cloudflare'],
-  goals: [],
+  technologies: ['React', 'Javascript', 'HTML', 'CSS', 'Tailwind', 'Chart.js', 'Tradier API', 'Cloudflare'],
+  goals: ["Optioncent was conceived and developed with the purpose of altering investors' mindset when trading stock options.", "Options are derivatives of equities/stocks and therefore are reliant on the underlying value of their associated equity.", "As an investor, and active participant in many online investing communities and forums, I witnessed first-hand the intrinsic biases which seep into ", "The primary issue emerges from investors viewing the value of an option as absolute rather than relative to the underlying equities it represents.", "As an example, investors will view a $50 at-the-money call option on an equity with an underlying value of $5,000 as cheap whereas a $750 at-the-money call option on an equity with an underlying value of $100,000 will be considered expensive. This is in spite of the 'cheap' option costing 1% of its underlying's value whereas the 'expensive' call only costs 0.75%", "As a disclaimer, I note that option pricing is far more complex and nuanced than outlined above and relies on a strong grasp of the Black Scholes formula alongside option greeks.", "Nevertheless Optioncent aims to remediate the abovementioned fallacy by solely displaying option prices as a percentage of their underlying asset's value. I believe this allows investors to form objective opinions and decisions relying on data rather than inherent, though inevitable, biases."],
   general: [],
   technical: [],
   todo: [],
@@ -99,4 +99,3 @@ const medicleData = {
 export { stockleData, spotlistData, optioncentData, medicleData }
 
 // Add tehcnical summary info and usage
-// Remove screenshots section and add "For more images see github..."
