@@ -109,8 +109,8 @@ const scrollToTopData = {
   link: "/scrolltotop",
   live: "https://www.npmjs.com/package/scroll-to-top-react-router",
   github: "https://github.com/llleeeaaannn/scroll-to-top-react-router",
-  image: "",
-  largeImage: "",
+  image: "/images/scrolltotop/scrollToTopOverviewImage.png",
+  largeImage: "/images/scrolltotop/scrollToTopOverviewImage.png",
   screenshots: []
 }
 
