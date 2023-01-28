@@ -96,6 +96,24 @@ const medicleData = {
   screenshots: []
 }
 
-export { stockleData, spotlistData, optioncentData, medicleData }
+const scrollToTopData = {
+  name: "Scroll To Top",
+  type: "Package",
+  shortDescription: "An NPM package which provides functionality for automatically scrolling to the top of the page upon route changes in React applications, while also preserving the previous pages' scroll position when navigating using the browser's Back and Forward buttons.",
+  longDescription: "",
+  technologies: ["Javascript", "React", "React Router", "NPM"],
+  goals: [],
+  general: [],
+  technical: [],
+  todo: [],
+  link: "/scrolltotop",
+  live: "https://www.npmjs.com/package/scroll-to-top-react-router",
+  github: "https://github.com/llleeeaaannn/scroll-to-top-react-router",
+  image: "",
+  largeImage: "",
+  screenshots: []
+}
 
-// Add tehcnical summary info and usage
+export { stockleData, spotlistData, optioncentData, medicleData, scrollToTopData }
+
+// Add what I learnt

@@ -1,6 +1,6 @@
 import styles from '../styles/projectlist.module.css';
 import ProjectOverview from './projectoverview';
-import { stockleData, spotlistData, optioncentData } from '../data/projectData';
+import { stockleData, spotlistData, optioncentData, scrollToTopData } from '../data/projectData';
 
 const ProjectList = () => {
 
@@ -10,6 +10,7 @@ const ProjectList = () => {
       <ProjectOverview data={spotlistData}/>
       <ProjectOverview data={stockleData}/>
       <ProjectOverview data={optioncentData}/>
+      <ProjectOverview data={scrollToTopData}/>
     </div>
   )
 }

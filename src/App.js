@@ -9,6 +9,7 @@ import Stockle from './views/projects/stockle';
 import Medicle from './views/projects/medicle';
 import Spotlist from './views/projects/spotlist';
 import Optioncent from './views/projects/optioncent';
+import ScrollToTopPackage from './views/projects/scrolltotop';
 
 export const AppContext = React.createContext();
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/medicle' element={<Medicle />} />
         <Route exact path='/spotlist' element={<Spotlist />} />
         <Route exact path='/optioncent' element={<Optioncent />} />
+        <Route exact path='/scrolltotop' element={<ScrollToTopPackage />} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
     </AppContext.Provider>
