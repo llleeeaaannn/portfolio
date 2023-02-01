@@ -3,7 +3,7 @@ import { AppContext } from '../App';
 import { Link } from 'react-router-dom';
 import styles from '../styles/menu.module.css';
 import { githubLink, linkedinLink, emailLink } from '../data/linkData';
-import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
+import { screenBlogData, vanillaSWBlogData, renderingBlogData, resetCSSData } from '../data/blogData';
 import { stockleData, spotlistData, optioncentData, medicleData } from '../data/projectData';
 
 const Menu = () => {
@@ -33,6 +33,7 @@ const Menu = () => {
           <a href={renderingBlogData.link} rel="noopener noreferrer" target="_blank">{renderingBlogData.name}</a>
           <a href={vanillaSWBlogData.link} rel="noopener noreferrer" target="_blank">{vanillaSWBlogData.name}</a>
           <a href={screenBlogData.link} rel="noopener noreferrer" target="_blank">{screenBlogData.name}</a>
+          <a href={resetCSSData.link} rel="noopener noreferrer" target="_blank">{resetCSSData.name}</a>
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 import styles from '../styles/bloglist.module.css';
 import BlogOverview from './blogoverview';
 import { mediumLink } from '../data/linkData';
-import { screenBlogData, vanillaSWBlogData, renderingBlogData } from '../data/blogData';
+import { screenBlogData, vanillaSWBlogData, renderingBlogData, resetCSSData } from '../data/blogData';
 
 const BlogList = () => {
 
@@ -12,6 +12,7 @@ const BlogList = () => {
         <BlogOverview data={renderingBlogData}/>
         <BlogOverview data={vanillaSWBlogData}/>
         <BlogOverview data={screenBlogData}/>
+        <BlogOverview data={resetCSSData}/>
       </div>
       <a className={styles.allBlogs} href={mediumLink} rel="noopener noreferrer" target="_blank">
         <span>See all blogs</span>

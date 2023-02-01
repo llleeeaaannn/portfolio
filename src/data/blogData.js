@@ -19,4 +19,11 @@ const renderingBlogData = {
   type: 'Tips & Tricks'
 }
 
-export { screenBlogData, vanillaSWBlogData, renderingBlogData }
+const resetCSSData = {
+  name: 'My Reset CSS',
+  description: 'A Reset CSS that works for me. It’s similar to many of the classic resets with my own twist, feel free to use it as and when you wish.',
+  link: 'https://piercefrank10.medium.com/my-reset-css-7c9f693fbcc4',
+  type: 'Blog'
+}
+
+export { screenBlogData, vanillaSWBlogData, renderingBlogData, resetCSSData }
