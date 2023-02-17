@@ -8,4 +8,6 @@ const devtoLink = "https://dev.to/llleeeaaannn";
 
 const emailLink = "mailto:frank.pierceee@gmail.com";
 
+const theHrEmailLink = "mailto:frank.pierce@thehrcompany.ie";
+
 export { githubLink, linkedinLink, mediumLink, devtoLink, emailLink }
