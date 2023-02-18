@@ -10,4 +10,4 @@ const emailLink = "mailto:frank.pierceee@gmail.com";
 
 const theHrEmailLink = "mailto:frank.pierce@thehrcompany.ie";
 
-export { githubLink, linkedinLink, mediumLink, devtoLink, emailLink }
+export { githubLink, linkedinLink, mediumLink, devtoLink, emailLink, theHrEmailLink }
